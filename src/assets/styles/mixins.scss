@@ -1,0 +1,30 @@
+$breakpoints: (
+        "mobile": 576px,
+        "ipad": 768px,
+        "pc":992px,
+        "b-pc":1200px,
+        //"b-pc": 1400px
+);
+
+@mixin responsive($size) {
+  @if map-has-key($breakpoints, $size) {
+    $value: map-get($breakpoints, $size);
+    @if $size == "mobile" {
+      @media (max-width: $value) {
+        @content;
+      }
+    } @else if $size == "ipad" {
+      @media (min-width: $value) {
+        @content;
+      }
+    } @else if $size == "pc" {
+      @media (min-width: $value) {
+        @content;
+      }
+    } @else if $size == "b-pc" {
+      @media (min-width: $value) {
+        @content;
+      }
+    }
+  }
+}

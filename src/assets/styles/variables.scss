@@ -1,0 +1,80 @@
+::v-global(.van-cell__right-icon) {
+  color: #9C73E7;
+}
+::v-global(.van-collapse-item__content) {
+  font-size: 15px;
+  font-weight: 600;
+  background: transparent;
+}
+::v-global(.van-cell){
+  background: transparent;
+  color: #712BEF;
+}
+
+::v-global(.van-cell--clickable:active){
+  background: transparent;
+}
+
+// 主题颜色
+$theme-color: #021526;
+$btn1-color: #FF9255;
+$btn2-color: linear-gradient(90deg, #FFC400 0%, #FFAB40 16%, #FF8629 33%,#FF5722 49%, #FF1744 66%, #F50057 83%,#FF4081 100%);
+$btn3-color: linear-gradient(0deg,#FF5722,#FF1744,#F50057);
+$btn4-color: linear-gradient(0deg, #FFC400 0%, #FFAB40 16%, #FF8629 33%,#FF5722 49%, #FF1744 66%, #F50057 83%,#FF4081 100%);
+$btn5-color: linear-gradient(180deg, #FF5722,#FF8629);
+$btn1-text-color: #FFFFFF;
+$indicator-color: #DB5041;
+$indicator-color-active: #DB5041;
+$text1-color: #FF9255;
+$text2-color: #FFFFFF;
+$question-border-color: #F0B154;
+$question-background-color: #FAD4D3;
+$calculate-box-shadow: rgba(128, 127, 130, 0.2);
+$calculate-box-text-color: #4D4D4D;
+$output-text-color: #F15A29;
+$footer-background-color: #F2F2F2;
+$footer-text-color: #DA5041;
+$footer-text2-color: #000000;
+$footer-advice-background-color: #FF9255;
+$about-box-text-color: #EF4136;
+$about-box-text2-color:#EF4136;
+$about-title-border-bottom-color: #EF4136;
+$about-background-color: linear-gradient(90deg, #FFC400 0%, #FF8629 33%,#FF1744 67%, #F50057 83%, #FF4081 100%);
+
+.section-title {
+  color: #FFFFFF;
+  font-size: 34px;
+  font-weight: 600;
+  letter-spacing: 5px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.section-title::after {
+  content: '';
+  display: block;
+  width: 6%;
+  height: 4px;
+  background-color: #fddb5d;
+  margin: 0 auto;
+}
+.section-title-y {
+  color: #FDDB5D;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 5px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.section-title-y::after {
+  content: '';
+  display: block;
+  width: 22%;
+  height: 4px;
+  background-color: #FFFFFF;
+  margin: 0 auto;
+}
+p {
+  color: #FFFFFF;
+}

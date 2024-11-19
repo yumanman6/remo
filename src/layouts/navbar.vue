@@ -18,7 +18,11 @@ const isMobile = computed(() => width.value < 768);
       <NavbarBrand>
         <img class="navbar-btn-img" src="../assets/images/navbar/logo.png" alt="">
       </NavbarBrand>
-      <div v-show="isMobile" class="login-btn"><img :src="nbtnImg" alt=""></div>
+      <div v-show="isMobile" class="login-btn">
+        <a href="#">
+          <img :src="nbtnImg" alt="">
+        </a>
+      </div>
       <NavbarToggler target="#offcanvasRight" />
       <Offcanvas
           id="offcanvasRight"
@@ -51,7 +55,7 @@ const isMobile = computed(() => width.value < 768);
               <NavLink>博客</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink><img class="navbar-btn-img" :src="btnImg" alt=""></NavLink>
+              <NavLink to="/"><img class="navbar-btn-img" :src="btnImg" alt=""></NavLink>
             </NavItem>
           </NavbarNavList>
         </OffcanvasBody>

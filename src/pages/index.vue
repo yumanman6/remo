@@ -211,7 +211,7 @@ onMounted(async() => {
   .section-2 {
     position: relative;
     background: radial-gradient(circle, rgb(55, 58, 56) 0%, rgb(28, 30, 36) 100%);
-    margin: 60px 10px;
+    margin: 60px 10px 10px;
     min-height: 600px;
     padding: 0 0 60px;
     .section-2-img {

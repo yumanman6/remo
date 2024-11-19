@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "nuxt": "^3.14.159",
+    "sass": "^1.81.0",
     "usebootstrap": "^3.5.100",
     "vue": "latest",
     "vue-router": "latest"

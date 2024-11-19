@@ -4,7 +4,9 @@
 <!--      <NuxtLayout name="nav"/>-->
       <NuxtLayout name="navbar"/>
       <NuxtPage />
-<!--      <NuxtLayout name="foot"/>-->
+      <NuxtLayout name="foot"/>
     </div>
   </div>
 </template>
+<script setup lang="ts">
+</script>

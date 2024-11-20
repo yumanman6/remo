@@ -42,7 +42,7 @@ calculateLoan();
 <template>
   <div id="calculator">
     <div class="c-bg">
-      <div class="c-body">
+      <div class="c-body wow animate__animated animate__fadeIn" data-wow-delay="0.1s">
         <div class="c-title d-flex justify-content-center align-items-center">私人貸款計算機</div>
         <!-- 计算器 -->
         <div class="calculator-form">

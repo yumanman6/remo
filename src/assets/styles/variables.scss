@@ -23,3 +23,9 @@ $foot-color: #F38F1E;
 p {
   color: #FFFFFF;
 }
+
+a {
+  text-decoration: none; /* 去掉下划线 */
+  color: inherit; /* 继承文字颜色 */
+  cursor: pointer; /* 确保点击效果正常 */
+}

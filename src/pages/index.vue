@@ -46,8 +46,10 @@ onMounted(async() => {
 <div id="index">
   <div class="index-img">
     <div class="index-img-text">
-      <span>24/7網上</span><br>自助貸款
-      <img class="mouse" src="@/assets/images/index/img2.png" alt="">
+      <a href="/apply">
+        <div class="animate__animated animate__pulse"><span>24/7網上</span><br>自助貸款</div>
+        <img class="mouse animate__animated animate__heartBeat" src="@/assets/images/index/img2.png" alt="">
+      </a>
     </div>
   </div>
   <background :backgroundImg="backgroundImg"
@@ -74,9 +76,9 @@ onMounted(async() => {
   <div class="section-1">
     <div class="container">
       <div class="row justify-content-center text-center">
-        <div class="section-1-title">網上自助貸款</div>
-        <p>嶄新的實體 + 網上特快貸款平台，借貸最快 5 分鐘批核，24 小時現金貸款到手，全港智能櫃員機即攞現金。嶄新的實體款平台，借貸最快 5 分鐘批核，24 小時現金貸款到手，全港智能櫃員機即攞現金。</p>
-        <div class="col-md-3 col-6 section-1-text" v-for="(info,index) in section1Items" :key="index">
+        <div class="section-1-title wow animate__animated animate__fadeInUp" data-wow-delay="0.1s">網上自助貸款</div>
+        <p class="wow animate__animated animate__fadeInUp" data-wow-delay="0.2s">嶄新的實體 + 網上特快貸款平台，借貸最快 5 分鐘批核，24 小時現金貸款到手，全港智能櫃員機即攞現金。嶄新的實體款平台，借貸最快 5 分鐘批核，24 小時現金貸款到手，全港智能櫃員機即攞現金。</p>
+        <div class="col-md-3 col-6 section-1-text wow animate__animated animate__fadeInUp" data-wow-delay="0.3s" v-for="(info,index) in section1Items" :key="index">
           <div class="section-1-img d-flex justify-content-center align-items-center">
             <div>
               <img :src="info.src" alt="">
@@ -91,10 +93,10 @@ onMounted(async() => {
   <div class="section-2">
     <div class="container">
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-6 wow animate__animated animate__fadeIn" data-wow-delay="0.1s">
           <img class="section-2-img" src="@/assets/images/index/section2-img1.png" alt="">
         </div>
-        <div class="col-md-6 section-2-title d-flex">
+        <div class="col-md-6 section-2-title d-flex wow animate__animated animate__fadeInRight" data-wow-delay="0.1s">
           <div>
             <img src="@/assets/images/index/icon1.png" alt="">
           </div>
@@ -104,7 +106,7 @@ onMounted(async() => {
             <p>(現金回贈是計算批出貸款的2％，即＄50,000貸款可回贈現金$1,000)</p>
           </div>
         </div>
-        <div class="col-md-4 section-2-icon">
+        <div class="col-md-4 section-2-icon wow animate__animated animate__fadeInUp" data-wow-delay="0.1s">
           <div class="section-2-icon-title">重置TU轉戶</div>
           <div class="row justify-content-center align-items-center">
             <div class="col-md-1 col-2"></div>
@@ -114,7 +116,7 @@ onMounted(async() => {
             <div class="col-7 section-2-icon-text">8折轉戶</div>
           </div>
         </div>
-        <div class="col-md-4 section-2-icon">
+        <div class="col-md-4 section-2-icon wow animate__animated animate__fadeInUp" data-wow-delay="0.1s">
           <div class="section-2-icon-title">信用卡轉戶</div>
           <div class="row justify-content-center align-items-center">
             <div class="col-md-1 col-2"></div>
@@ -124,7 +126,7 @@ onMounted(async() => {
             <div class="col-7 section-2-icon-text">7折轉戶</div>
           </div>
         </div>
-        <div class="col-md-4 section-2-icon">
+        <div class="col-md-4 section-2-icon wow animate__animated animate__fadeInUp" data-wow-delay="0.1s">
           <div class="section-2-icon-title">循環貸款轉戶</div>
           <div class="row justify-content-center align-items-center">
             <div class="col-md-1 col-2"></div>
@@ -142,6 +144,9 @@ onMounted(async() => {
 </template>
 
 <style scoped lang="scss">
+#index {
+  overflow: hidden;
+}
 @include responsive('mobile') {
   .index-img {
     display: flex;
@@ -159,7 +164,6 @@ onMounted(async() => {
       font-size: 28px;
       color: white;
       line-height: 28px;
-
       span {
         font-size: 22px;
       }

@@ -16,7 +16,8 @@ defineProps({
 </script>
 
 <template>
-<div id="navigate" class="navigate">
+<div id="navigateLeft">
+  <div class="navigate wow animate__animated animate__fadeInRight" data-wow-delay="0.1s">
     <div class="navLeft">
       <div class="navTitle">
         <img src="@/assets/images/index/icon1.png" alt="">
@@ -24,13 +25,17 @@ defineProps({
       </div>
       <p class="navText">{{navText}}</p>
     </div>
-  <div class="navRight d-flex justify-content-end">
-    <img :src="navImg" alt="">
+    <div class="navRight d-flex justify-content-end">
+      <img :src="navImg" alt="">
+    </div>
   </div>
 </div>
 </template>
 
 <style scoped lang="scss">
+#navigateLeft {
+  overflow: hidden;
+}
 @include responsive('mobile'){
   .navigate {
     position: relative;

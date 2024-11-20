@@ -1,9 +1,9 @@
 <template>
     <div id="foot">
-        <div class="container">
+        <div class="container px-4 px-md-0">
           <div class="row align-items-center foot-title">
             <div class="col-md-2 col-5 foot-logo">
-              <img src="@/assets/images/foot/logo.png" alt="">
+              <a href="/"><img src="@/assets/images/foot/logo.png" alt=""></a>
             </div>
             <div class="col-md-4 col-7 foot-icon">
               <img src="@/assets/images/foot/icon1.png" alt="">
@@ -76,9 +76,9 @@
   color: #FFFFFF;
 }
 @include responsive('mobile'){
-  #foot {
-    padding-left: 30px;
-  }
+  //#foot {
+  //  padding-left: 30px;
+  //}
   .foot-logo img {
     height: 60px;
   }

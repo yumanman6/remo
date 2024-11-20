@@ -10,10 +10,12 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "animate.css": "^4.1.1",
     "nuxt": "^3.14.159",
     "sass": "^1.81.0",
     "usebootstrap": "^3.5.100",
     "vue": "latest",
-    "vue-router": "latest"
+    "vue-router": "latest",
+    "wow.js": "^1.2.2"
   }
 }

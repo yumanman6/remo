@@ -98,7 +98,7 @@ calculateLoan();
   #calculator {
     .c-bg {
       position: relative;
-      background-image: url("@/assets/images/calculator/calculatorBg2.png");
+      background-image: url("@/assets/images/calculator/calculatorBg2.jpg");
       min-height: 800px;
       background-size: cover;
       background-position: center;
@@ -181,7 +181,7 @@ calculateLoan();
   #calculator {
     .c-bg {
       position: relative;
-      background-image: url("@/assets/images/calculator/calculatorBg.png");
+      background-image: url("@/assets/images/calculator/calculatorBg.jpg");
       min-height: 670px;
       background-size: cover;
       background-position: center;

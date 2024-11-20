@@ -1,5 +1,5 @@
 <script setup>
-import backgroundImg from '@/assets/images/index/background.png'
+import backgroundImg from '@/assets/images/index/background.jpg'
 import navImg1 from '@/assets/images/index/nav1.png'
 import navImg2 from '@/assets/images/index/nav2.png'
 import navImg3 from '@/assets/images/index/nav3.png'

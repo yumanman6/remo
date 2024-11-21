@@ -76,43 +76,44 @@
   color: #FFFFFF;
 }
 @include responsive('mobile'){
-  //#foot {
-  //  padding-left: 30px;
-  //}
-  .foot-logo img {
-    height: 60px;
-  }
-  .foot-icon {
-    height: 60px;
-    img {
-      width: 32px;
-      margin-right:10px;
-      margin-top:18px;
+  #foot {
+    .foot-logo img {
+      height: 60px;
     }
-  }
-  .foot-texts {
-    .foot-text {
-      padding-top: 40px;
-      font-size: 20px;
+    .foot-icon {
+      height: 60px;
+      img {
+        width: 32px;
+        margin-right:10px;
+        margin-top:18px;
+      }
+    }
+    .foot-texts {
+      .foot-text {
+        padding-top: 40px;
+        font-size: 20px;
+      }
     }
   }
 }
 @include responsive('pc'){
-  .foot-logo img {
-    height: 80px;
-  }
-  .foot-icon {
-    height: 80px;
-    img {
-      width: 32px;
-      margin-right:15px;
-      margin-top:30px;
+  #foot {
+    .foot-logo img {
+      height: 80px;
     }
-  }
-  .foot-texts {
-    .foot-text {
-      padding-top: 40px;
-      font-size: 20px;
+    .foot-icon {
+      height: 80px;
+      img {
+        width: 32px;
+        margin-right:15px;
+        margin-top:30px;
+      }
+    }
+    .foot-texts {
+      .foot-text {
+        padding-top: 40px;
+        font-size: 20px;
+      }
     }
   }
 }

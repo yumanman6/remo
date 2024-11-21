@@ -20,10 +20,12 @@ defineProps({
 </script>
 
 <template>
-  <div id="background-img" class="background-img" :style="{ backgroundImage: 'url(' + backgroundImg + ')' }">
-    <div class="img-title1 wow animate__animated animate__fadeInRight">{{imgTitle1}}</div>
-    <div class="img-title2 wow animate__animated animate__fadeInRight" data-wow-delay="0.3s">{{imgTitle2}}</div>
-    <p class="img-text wow animate__animated animate__fadeInRight" data-wow-delay="0.5s">{{imgText}}</p>
+  <div id="background-img">
+    <div class="background-img" :style="{ backgroundImage: 'url(' + backgroundImg + ')' }">
+      <div class="img-title1 wow animate__animated animate__fadeInRight">{{imgTitle1}}</div>
+      <div class="img-title2 wow animate__animated animate__fadeInRight" data-wow-delay="0.3s">{{imgTitle2}}</div>
+      <p class="img-text wow animate__animated animate__fadeInRight" data-wow-delay="0.5s">{{imgText}}</p>
+    </div>
   </div>
 </template>
 

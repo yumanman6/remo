@@ -46,7 +46,7 @@ const isMobile = computed(() => width.value < 768);
               <NavLink>樓宇按揭</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink>私人貸款</NavLink>
+              <NavLink to="/private">私人貸款</NavLink>
             </NavItem>
             <NavItem>
               <NavLink>常見問題</NavLink>

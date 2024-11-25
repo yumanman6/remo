@@ -35,12 +35,12 @@ const isMobile = computed(() => width.value < 768);
         <OffcanvasBody>
           <NavbarNavList class="mx-auto mb-2 mb-lg-0">
             <NavItem>
-              <NavLink>
+              <NavLink to="/about">
                 關於我們
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink>債務一筆清</NavLink>
+              <NavLink to="/clearDebt">債務一筆清</NavLink>
             </NavItem>
             <NavItem>
               <NavLink>樓宇按揭</NavLink>

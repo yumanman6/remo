@@ -102,8 +102,8 @@ onMounted(() => {
     width: 100%;
     min-height: 600px;
     background-size: cover;
-    background-position: center center; /* 背景图居中显示 */
-    background-repeat: no-repeat; /* 防止背景图重复 */
+    background-position: center center;
+    background-repeat: no-repeat;
     color: #FFFFFF;
     .img-title {
       position: absolute;
